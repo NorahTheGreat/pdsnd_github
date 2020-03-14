@@ -5,7 +5,7 @@ Saturday 14/03/2020
 Explore US Bike Share Data
 
 ### Description
-Describe what your project is about and what it does
+The project explore the bike share data of three cities in the US: Chicago, New york and Washington. It offers an interactive user experinces in which it prompt the user input and compute the statistecs based on that input. 
 
 ### Files used
 Include the files used
