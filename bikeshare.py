@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+
 def get_filters():
    
     print('Hello! Let\'s explore some US bikeshare data!')
@@ -34,6 +35,7 @@ def get_filters():
     return city, month, day
 
 
+#based on the user input, load_data will return the data to then be used for generating statistics
 def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city]) 
 
