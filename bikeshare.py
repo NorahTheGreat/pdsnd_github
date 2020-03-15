@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-
+#get_filters prmpot the users input: City, Month, Day 
 def get_filters():
    
     print('Hello! Let\'s explore some US bikeshare data!')
